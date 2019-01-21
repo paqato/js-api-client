@@ -1,0 +1,19 @@
+{
+    "extends": "./node_modules/gts/tsconfig-google.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "./built",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noErrorTruncation": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "downlevelIteration": true,
+        "newLine": "LF"
+    },
+    "include": [
+        "lib/*.ts",
+        "lib/**/*.ts"
+    ]
+}

@@ -1,0 +1,1 @@
+# PAQATO JS API Client
