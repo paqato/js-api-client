@@ -35,7 +35,6 @@
     "posttest": "npm run check"
   },
   "dependencies": {
-    "@types/query-string": "^6.2.0",
     "query-string": "^6.2.0"
   },
   "devDependencies": {
